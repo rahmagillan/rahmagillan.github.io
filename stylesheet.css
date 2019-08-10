@@ -6,17 +6,50 @@
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: #111;
+	background-color: #C0C0C0;
 	overflow-x: hidden;
 	padding-top: 20px;
 }
 .sidenav a {
-	color: white;
+	color: black;
 	display: block;
-	margin-top: 1.0em;
+	margin-top: 1.5em;
 	margin-bottom: 1.0em;
 	text-align: center;
+	text-shadow: 0 0 5px rgb(0,0,0,0.5);
 }
 .sidenav i {
-	font-size: 2.0em;
+	font-size: 1.8em;
+}
+.sidenav img {
+	width: 100%;
+	height: auto;
+}
+.sidenav p {
+	color: white;
+	font-family: times;
+	font-weight: bold;
+	font-size: 0.6em;
+	margin-top: 0.8em;
+	visibility: hidden;
+	background-color: rgb(255,255,255,0.5);
+	border-width: 2px;
+	border-color: rgb(255,255,255,0.5);
+	border-radius: 2px;
+}
+.nav:hover p {
+	visibility: visible;
+	color: black;
+}
+.kiwi a:hover {
+	color: #40E0D0;
+}
+.plum a:hover {
+    color: #8040E0;
+}
+.cherry a:hover {
+	color: #E04050;
+}
+.lime a:hover {
+	color: #A0E040;
 }
