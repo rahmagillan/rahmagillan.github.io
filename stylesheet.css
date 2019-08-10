@@ -1,0 +1,22 @@
+/*Navigation Bar*/
+.sidenav {
+	height: 100%;
+	width: 4em;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav a {
+	color: white;
+	display: block;
+	margin-top: 1.0em;
+	margin-bottom: 1.0em;
+	text-align: center;
+}
+.sidenav i {
+	font-size: 2.0em;
+}
