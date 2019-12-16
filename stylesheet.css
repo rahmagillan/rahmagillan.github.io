@@ -17,6 +17,7 @@
 	margin-bottom: 1.0em;
 	text-align: center;
 	text-shadow: 0 0 5px rgb(0,0,0,0.5);
+	transition: 0.3s;
 }
 .sidenav i {
 	font-size: 1.8em;
@@ -52,4 +53,12 @@
 }
 .lime a:hover {
 	color: #A0E040;
+}
+/*Home*/
+#home {
+	margin-left: 4em;
+}
+/*Education*/
+#education {
+	margin-left: 4em;
 }
