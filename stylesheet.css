@@ -72,7 +72,8 @@
 #intro {
     margin-left: 4em;
     display: flex;
-    align-items: center;    
+    align-items: center;  
+    padding: 2em;
 }
 #intro-row {
     padding: 2em;
@@ -107,14 +108,11 @@
 }
 #intro-sentence {
     text-align: center;
-    display: block;
 }
 #quote {
-    display: block;
 }
 #quote-author {
     text-align: right;
-    display: block;
 }
 /*Home*/
 #home {
@@ -162,8 +160,38 @@
 #awards {
     margin-left: 4em;
 }
-
 /*Contact*/
 #contact {
     margin-left: 4em;
+    display: flex;
+    align-items: center;
+    padding: 4em;
+}
+#contact-row {
+    padding: 2em;
+}
+#contact-title {
+    text-shadow: 0 0 5px #E04050;
+}
+#back-pic-bg {
+    z-index: 0;
+    width: inherit;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#back-pic {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+#copyright {
+    text-align: center;
 }
