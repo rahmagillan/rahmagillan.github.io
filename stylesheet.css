@@ -173,6 +173,26 @@
 #contact-title {
     text-shadow: 0 0 5px #E04050;
 }
+.cont {
+    color: black;
+    text-decoration: none;
+    margin: 0.25em;
+}
+.cont:hover {
+    text-decoration: none;
+}
+.links {
+    display: block;
+    text-align: center;
+}
+#cont-links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 1em;
+    
+}
 #back-pic-bg {
     z-index: 0;
     width: inherit;
