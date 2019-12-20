@@ -106,6 +106,9 @@
     justify-content: center;
     align-items: center;
 }
+#name {
+    text-shadow: 0 0 5px #40E0D0;
+}
 #intro-sentence {
     text-align: center;
 }
@@ -117,9 +120,35 @@
 /*Home*/
 #home {
 	margin-left: 4em;
+    padding: 2em;
 }
-#name {
-    text-shadow: 0 0 5px #40E0D0;
+#about-row {
+    padding: 2em;
+}
+#wa-front {
+    z-index: 1;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    margin: auto;
+}
+#wa-back {
+    z-index: 0;
+    width: inherit;
+    height: auto;
+        padding-top: 1em;
+    padding-bottom: 1em;
+}
+#about-title {
+    text-shadow: 0 0 5px #8040E0;
+}
+#about-info {
+    margin: 2em;
 }
 /*Education*/
 #education {
@@ -191,7 +220,6 @@
     right: 0;
     left: 0;
     margin-bottom: 1em;
-    
 }
 #back-pic-bg {
     z-index: 0;
@@ -208,7 +236,7 @@
     left: 0;
     display: block;
     z-index: 1;
-    width: 70%;
+    width: 90%;
     height: auto;
     margin: auto;
 }
