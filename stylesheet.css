@@ -68,12 +68,61 @@
     background-color: #A0E04080;
 }
 
-
+/*Intro*/
+#intro {
+    margin-left: 4em;
+    display: flex;
+    align-items: center;    
+}
+#intro-row {
+    padding: 2em;
+}
+#pfp-bg {
+    z-index: 0;
+    width: inherit;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#pfp {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 0 10px black; 
+    z-index: 1;
+}
+#rh-intro {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#intro-sentence {
+    text-align: center;
+    display: block;
+}
+#quote {
+    display: block;
+}
+#quote-author {
+    text-align: right;
+    display: block;
+}
 /*Home*/
 #home {
 	margin-left: 4em;
 }
-
+#name {
+    text-shadow: 0 0 5px #40E0D0;
+}
 /*Education*/
 #education {
 	margin-left: 4em;
