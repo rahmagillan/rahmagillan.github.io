@@ -149,12 +149,26 @@
 }
 #about-info {
     margin: 2em;
+    padding: 2em;
 }
 /*Education*/
 #education {
 	margin-left: 4em;
+    padding: 4em;
 }
-
+#edu-row {
+    padding: 2em;
+    margin: 2em;
+}
+#edu-text {
+    text-shadow: 0 0 5px #E04050;
+    margin: auto;
+    padding-top: 1em;
+}
+.edu-logo {
+    width: 40%;
+    height: auto;
+}
 /*Skills*/
 #skills {
     margin-left: 4em;
