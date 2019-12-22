@@ -157,8 +157,6 @@
     padding: 4em;
 }
 #edu-row {
-    padding: 2em;
-    margin: 2em;
 }
 #edu-text {
     text-shadow: 0 0 5px #E04050;
@@ -194,32 +192,74 @@ ul.edu {
 /*Leadership*/
 #leadership {
     margin-left: 4em;
+    padding: 4em;
+}
+#leadership-cont {
+    padding: 2em;
+}
+#leadership-title {
+    text-shadow: 0 0 5px #40E0D0;
 }
 
 /*Experience*/
 #experience {
     margin-left: 4em;
+    padding: 4em;
 }
-
+#experience-cont {
+    padding: 2em;
+}
+#experience-title {
+    text-shadow: 0 0 5px #8040E0;
+}
 /*Projects*/
 #projects {
     margin-left: 4em;
+    padding: 4em;
+}
+#projects-cont {
+    padding: 2em;
+}
+#projects-title {
+    text-shadow: 0 0 5px #E04050;
 }
 
 /*Volunteer*/
 #volunteer {
     margin-left: 4em;
+    padding: 4em;
+}
+#volunteer-cont {
+    padding: 2em;
+}
+#volunteer-title {
+    text-shadow: 0 0 5px #A0E040;
 }
 
 /*Interest*/
 #interests {
     margin-left: 4em;
+    padding: 4em;
+}
+#interests-cont {
+    padding: 2em;
+}
+#interests-title {
+    text-shadow: 0 0 5px #40E0D0;
 }
 
 /*Awards*/
 #awards {
     margin-left: 4em;
+    padding: 4em;
 }
+#awards-cont {
+    padding: 2em;
+}
+#awards-title {
+    text-shadow: 0 0 5px #8040E0;
+}
+
 /*Contact*/
 #contact {
     margin-left: 4em;
