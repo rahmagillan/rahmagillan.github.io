@@ -169,11 +169,28 @@
     width: 40%;
     height: auto;
 }
+ul.edu {
+}
 /*Skills*/
 #skills {
     margin-left: 4em;
+    padding: 4em;
 }
-
+#skills-cont {
+    padding: 2em;
+}
+#skills-title {
+    text-shadow: 0 0 5px #A0E040;
+}
+#lang-lst {
+    list-style: none;
+}
+.langs {
+    padding-top: 5px; 
+}
+.progress-bar {
+    background-color: #A0E040;
+}
 /*Leadership*/
 #leadership {
     margin-left: 4em;
