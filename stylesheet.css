@@ -256,6 +256,12 @@ a.btn-dark:hover {
 .exp-btns {
     text-align: center;
 }
+.carousel-caption {
+    background-color: rgb(0,0,0,0.75);
+    border-radius: 5px;
+    padding-right: 1em;
+    padding-left: 1em;
+}
 /*Projects************************************************************************/
 #projects {
     margin-left: 4em;
