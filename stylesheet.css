@@ -164,14 +164,26 @@
     text-shadow: 0 0 5px #E04050;
     margin: auto;
     padding-top: 1em;
+    margin-bottom: 0.5em;
 }
 .edu-logo {
-    width: 40%;
+    width: 100%;
     height: auto;
 }
-ul.edu {
+.edu-logo-vmss {
+    width: 100%;
+    height: auto;
 }
-
+.logo-cont {
+    display: flex;
+    justify-content: center;
+}
+.hs-uni-row {
+    padding: 1em;
+}
+#hs {
+    padding-bottom: 2em;
+}
 /*Skills************************************************************************/
 #skills {
     margin-left: 4em;
@@ -242,7 +254,6 @@ a.btn-dark:hover {
     text-align: center;
 }
 .exp-btns {
-    justify-content: center;
     text-align: center;
 }
 /*Projects************************************************************************/
