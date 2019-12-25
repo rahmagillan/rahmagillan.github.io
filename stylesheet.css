@@ -273,6 +273,9 @@ a.btn-dark:hover {
 #projects-title {
     text-shadow: 0 0 5px #E04050;
 }
+.proj {
+    
+}
 
 /*Volunteer**********************************************************************/
 #volunteer {
@@ -284,6 +287,8 @@ a.btn-dark:hover {
 }
 #volunteer-title {
     text-shadow: 0 0 5px #A0E040;
+}
+.vol-card{
 }
 
 /*Interest**********************************************************************/
@@ -309,7 +314,11 @@ a.btn-dark:hover {
 #awards-title {
     text-shadow: 0 0 5px #8040E0;
 }
-
+#awards-pic {
+    width: inherit;
+    height: auto;
+    border-radius: 5px;
+}
 /*Contact**********************************************************************/
 #contact {
     margin-left: 4em;
