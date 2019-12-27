@@ -290,6 +290,13 @@ a.btn-dark:hover {
 }
 .vol-card{
 }
+.vol-pic {
+    width: inherit;
+    height: auto;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
 /*Interest**********************************************************************/
 #interests {
