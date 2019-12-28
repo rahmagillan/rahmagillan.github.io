@@ -315,7 +315,6 @@ a.btn-dark:hover {
     text-shadow: 0 0 5px #E04050;
 }
 .proj {
-    
 }
 .proj-link {
     color: #E04050;
@@ -326,12 +325,15 @@ a.btn-dark:hover {
     font-weight: 1000;
 }
 .proj-icon {
-    font-size: 150px;
+    font-size: 200px;
     color: #E0405020;
     text-align: center;
     margin-bottom: 0.25em;
     display: block;
-    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 /*Volunteer**********************************************************************/
 #volunteer {
