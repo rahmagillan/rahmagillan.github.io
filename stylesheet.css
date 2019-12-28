@@ -317,7 +317,22 @@ a.btn-dark:hover {
 .proj {
     
 }
-
+.proj-link {
+    color: #E04050;
+}
+.lang {
+    font-family: monospace;
+    text-align: right;
+    font-weight: 1000;
+}
+.proj-icon {
+    font-size: 150px;
+    color: #E0405020;
+    text-align: center;
+    margin-bottom: 0.25em;
+    display: block;
+    z-index: -1;
+}
 /*Volunteer**********************************************************************/
 #volunteer {
     margin-left: 4em;
@@ -338,7 +353,13 @@ a.btn-dark:hover {
     padding-left: 1em;
     padding-right: 1em;
 }
-
+#candrive-link {
+    color: #A0E040;
+}
+.vol-h {
+    padding: 0;
+    margin: 0;
+}
 /*Interest**********************************************************************/
 #interests {
     margin-left: 4em;
