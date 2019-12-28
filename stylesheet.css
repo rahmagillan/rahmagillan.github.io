@@ -371,7 +371,12 @@ a.btn-dark:hover {
 #interests-title {
     text-shadow: 0 0 5px #40E0D0;
 }
-
+#interests-bg {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: auto;
+}
 /*Awards************************************************************************/
 #awards {
     margin-left: 4em;
