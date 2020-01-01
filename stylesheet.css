@@ -118,6 +118,23 @@
     text-align: right;
 }
 
+/*Fixed Resume*/
+#resume-btn-link {
+    color: black;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+    padding: 0.25em;
+    border-radius: 5px;
+    margin: 0.25em;
+}
+#resume-btn-link:hover {
+    text-decoration: none;
+    color: darkgrey;
+}
+
 /*Home************************************************************************/
 #home {
 	margin-left: 4em;
