@@ -460,7 +460,6 @@ a.btn-dark:hover {
 .links {
     display: block;
     text-align: center;
-    margin-left: 40%;
 }
 #cont-links {
     margin: auto;
@@ -525,6 +524,7 @@ a.btn-dark:hover {
     margin: 20px;
     padding: 10px;
     border: 1px solid grey;
+    border-radius: 5px;
 }
 .evnt-top {
     margin-top: 5em;
